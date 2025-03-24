@@ -1,1 +1,15 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: "Inter", sans-serif;
+    --accent-font: "Press Start 2P", sans-serif;
+    --width-main-font-normal: 400;
+    --width-main-font-bold: 700;
+    --main-font-size: 18px;
+    --main-font-size-small: 14px;
+    --heder-title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    --heder-subtitle-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+    --block-background-color: #fff;
+    --text-stroke-color: #fff;
+    --main-style-color: #000;
+    --contour-color: #000;
+    --icon-fill-color: #f00;
+}
