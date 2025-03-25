@@ -229,6 +229,7 @@
 }
 
 .button__text {
+  padding-top: 3px;
   position: relative;
   z-index: 1;
   font-family: var(--accent-font, fantasy);
